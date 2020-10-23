@@ -14,8 +14,8 @@ function FriendCard(props) {
               <h4>{item.location}</h4>
               <h2>{item.title}</h2>
               <p>{item.desc_long}</p>
-              <button className="btn-sm btn-primary" href={item.live_link}>Live Demo</button>
-              <button className="btn-sm btn-success" href={item.repo_link}>Github Link</button>
+              <a className="btn btn-sm btn-primary" href={item.live_link}>Live Demo</a>
+              <a className="btn btn-sm btn-success" href={item.repo_link}>Github Link</a>
             </li>
           ))}
         </ul>
